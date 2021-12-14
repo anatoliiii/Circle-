@@ -1,0 +1,2 @@
+MainPackage=C:\Users\Mozgolika\source\repos\CirclePointsA\Cir\CirclePointsA\bin\ARM64\Release\CirclePointsA_1.1.2.0_ARM64.msix
+SymbolPackage=C:\Users\Mozgolika\source\repos\CirclePointsA\Cir\CirclePointsA\obj\ARM64\Release\Symbols\CirclePointsA_1.1.2.0_ARM64.appxsym

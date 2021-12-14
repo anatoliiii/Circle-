@@ -1,0 +1,59 @@
+﻿<Page
+    x:Class="CirclePointsA.About"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CirclePointsA"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <ScrollViewer
+            x:Name="contentSV"
+            Padding="56,0,0,0"
+            IsTabStop="False"
+            UseSystemFocusVisuals="False"
+            VerticalScrollBarVisibility="Auto"
+            VerticalScrollMode="Auto">
+            <StackPanel HorizontalAlignment="Left">
+                <TextBlock
+                    Style="{StaticResource SubtitleTextBlockStyle}"
+                    Margin="0,40,0,0"
+                    Text="О программе" />
+                <RichTextBlock MaxWidth="840" Margin="0,10,0,0" IsTextSelectionEnabled="True">
+                    <Paragraph>
+                        Это приложение позволяет определить пересекаются ли 2 окружности.
+
+                    </Paragraph>
+                    <Paragraph Margin="0,10,0,0">
+                        Исходник
+                        <Hyperlink NavigateUri="https://github.com/anatoliiii/Circle">GitHub</Hyperlink>
+                    </Paragraph>
+                    <Paragraph Margin="0,10,0,0">
+                        <Run>Клонирование репозитория:</Run>
+                        <Run FontStyle="Italic">git clone https://github.com/anatoliiii/Circle</Run>
+                    </Paragraph>
+                </RichTextBlock>
+                <TextBlock Margin="0,10,0,0" IsTextSelectionEnabled="True">
+                    Version: 
+                    <Run Text="{x:Bind Version}" FontWeight="Bold" />
+                </TextBlock>
+
+
+                <TextBlock
+                    Style="{StaticResource SubtitleTextBlockStyle}"
+                    Margin="0,40,0,0"
+                    Text="Разработчик" />
+                <RichTextBlock MaxWidth="840" Margin="0,10,0,50" IsTextSelectionEnabled="True">
+                    <Paragraph>ДАННЫЙ КОД И ИНФОРМАЦИЯ ПРЕДОСТАВЛЯЮТСЯ «КАК ЕСТЬ», БЕЗ КАКИХ-ЛИБО ГАРАНТИЙ, ЯВНЫХ ИЛИ ПОДРАЗУМЕВАЕМЫХ, ВКЛЮЧАЯ, НО НЕ ОГРАНИЧИВАЯСЬ, ПОДРАЗУМЕВАЕМЫЕ ГАРАНТИИ КОММЕРЧЕСКОЙ ЦЕННОСТИ И / ИЛИ ПРИГОДНОСТИ ДЛЯ КОНКРЕТНОЙ ЦЕЛИ.</Paragraph>
+                    <Paragraph>
+                        <LineBreak /> Авторское право (c) Копейкин Анатолий. Все права защищены.
+                    </Paragraph>
+
+                </RichTextBlock>
+            </StackPanel>
+        </ScrollViewer>
+       
+    </Grid>
+</Page>

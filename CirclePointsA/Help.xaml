@@ -1,0 +1,63 @@
+﻿<Page
+    x:Class="CirclePointsA.Help"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CirclePointsA"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <ScrollViewer
+            x:Name="contentSV"
+            Padding="56,0,0,0"
+            IsTabStop="False"
+            UseSystemFocusVisuals="False"
+            VerticalScrollBarVisibility="Auto"
+            VerticalScrollMode="Auto">
+            <StackPanel HorizontalAlignment="Left">
+                <TextBlock
+                    Style="{StaticResource SubtitleTextBlockStyle}"
+                    Margin="0,40,0,0"
+                    Text="Как работать с программой" />
+                <RichTextBlock MaxWidth="840" Margin="0,10,0,0" IsTextSelectionEnabled="True">
+                    <Paragraph>
+                        Для того чтобы определить пересекаются ли окружности необходимо выполнить следующие действия: 
+                        
+
+                    </Paragraph>
+                    <Paragraph>
+
+                    </Paragraph>
+                    <Paragraph>
+                        1. Координаты первой окружности.
+                    </Paragraph>
+                    <Paragraph>
+                        2. Радиус первой окружности.
+                    </Paragraph>
+                    <Paragraph>
+                        3. Координаты второй окружности.
+                    </Paragraph>
+                    <Paragraph>
+                        4. Радиус второй окружности.
+                    </Paragraph>
+                    <Paragraph>
+                        5. Нажать на кнопку вычислить в правом углу экрана.
+                    </Paragraph>
+                    <Paragraph>
+
+                    </Paragraph>
+                    <Paragraph>
+                        В результате получаем информацию о пересечении окжностей. 
+                    </Paragraph>
+                    <Paragraph>
+                        И точки пересечения с точность до 4х знаков после запятой.
+                    </Paragraph>
+                </RichTextBlock>
+
+               
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

@@ -1,0 +1,1 @@
+MainPackage=C:\Users\Mozgolika\source\repos\CirclePointsA\Cir\CirclePointsA\bin\x86\Release\CirclePointsA_1.1.20.0_x86.msix

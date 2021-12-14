@@ -1,0 +1,67 @@
+﻿<Page
+    x:Class="CirclePointsA.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+   
+    xmlns:controls="using:Windows.UI.Xaml.Controls" 
+    
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
+    xmlns:animatedVisuals="using:Microsoft.UI.Xaml.Controls.AnimatedVisuals"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" VerticalContentAlignment="Top" ScrollViewer.HorizontalScrollBarVisibility="Auto" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" HorizontalContentAlignment="Left">
+    
+    <Grid x:Name="layoutRoot" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" RequestedTheme="Default">
+        <Border x:Name="AppTitleBar"
+                Grid.Column="1"
+                IsHitTestVisible="True"
+                VerticalAlignment="Top"
+                Background="Transparent"
+                Canvas.ZIndex="1" Height="18">
+            <TextBlock x:Name="AppTitle"
+                       Text=""
+                       VerticalAlignment="Center"
+                       Style="{StaticResource CaptionTextBlockStyle}" />
+        </Border>
+
+        <muxc:NavigationView x:Name="nvSample"
+                             IsSettingsVisible="True"
+                             IsBackButtonVisible="Collapsed"
+                             IsBackEnabled="False"
+                             SelectionChanged="NavigationView_SelectionChanged"
+                             Header="Sample Page 1"
+                             AlwaysShowHeader="True"
+                             PaneTitle="Меню"
+                             PaneDisplayMode="LeftCompact"
+                             ExpandedModeThresholdWidth="500"
+                             SelectionFollowsFocus="Disabled"
+                             DisplayModeChanged="DisplayModeChanged"
+                             IsTabStop="False">
+
+            <muxc:NavigationView.MenuItems>
+                <muxc:NavigationViewItem Content="Решить" Tag="SampleP" x:Name="Sample">
+                    <muxc:NavigationViewItem.Icon>
+                        <SymbolIcon Symbol="Play" />
+                    </muxc:NavigationViewItem.Icon>
+                </muxc:NavigationViewItem>
+                <muxc:NavigationViewItemHeader Content="Дополнительно"/>
+                <muxc:NavigationViewItem Content="Помощь" Tag="SamplePage3" x:Name="Help">
+                    <muxc:NavigationViewItem.Icon>
+                        <SymbolIcon Symbol="Help" />
+                    </muxc:NavigationViewItem.Icon>
+                </muxc:NavigationViewItem>
+               <muxc:NavigationViewItem Content="О программе" Tag="SamplePage2" x:Name="About" SelectsOnInvoked="True">
+                    <muxc:NavigationViewItem.Icon>
+                        <SymbolIcon Symbol="Important"/>
+                    </muxc:NavigationViewItem.Icon>
+                </muxc:NavigationViewItem>
+            </muxc:NavigationView.MenuItems>
+
+            <Frame x:Name="contentFrame" />
+        </muxc:NavigationView>
+
+    </Grid>
+
+
+</Page>
