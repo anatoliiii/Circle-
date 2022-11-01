@@ -28,11 +28,11 @@
                     </Paragraph>
                     <Paragraph Margin="0,10,0,0">
                         Исходник
-                        <Hyperlink NavigateUri="https://github.com/anatoliiii/Circle">GitHub</Hyperlink>
+                        <Hyperlink NavigateUri="https://github.com/anatoliiii/Circle-">GitHub</Hyperlink>
                     </Paragraph>
                     <Paragraph Margin="0,10,0,0">
                         <Run>Клонирование репозитория:</Run>
-                        <Run FontStyle="Italic">git clone https://github.com/anatoliiii/Circle</Run>
+                        <Run FontStyle="Italic">git clone https://github.com/anatoliiii/Circle-</Run>
                     </Paragraph>
                 </RichTextBlock>
                 <TextBlock Margin="0,10,0,0" IsTextSelectionEnabled="True">

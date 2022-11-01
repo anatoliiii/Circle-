@@ -8,8 +8,8 @@
 
   <Identity
     Name="041ea39e-9e39-48c3-937d-68de5be50550"
-    Publisher="CN=Mozgolika"
-    Version="1.1.20.0" />
+    Publisher="CN=mozgolika"
+    Version="1.1.21.0" />
 
   <mp:PhoneIdentity PhoneProductId="041ea39e-9e39-48c3-937d-68de5be50550" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 

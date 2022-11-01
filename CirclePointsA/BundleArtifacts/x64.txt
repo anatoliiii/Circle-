@@ -1,5 +1,2 @@
-MainPackage=C:\Users\Mozgolika\source\repos\CirclePointsA\Cir\CirclePointsA\bin\x64\Release\CirclePointsA_1.1.20.0_x64.msix
-ResourcePack=C:\Users\Mozgolika\source\repos\CirclePointsA\Cir\CirclePointsA\bin\x64\Release\CirclePointsA_1.1.20.0_scale-100.msix
-ResourcePack=C:\Users\Mozgolika\source\repos\CirclePointsA\Cir\CirclePointsA\bin\x64\Release\CirclePointsA_1.1.20.0_scale-125.msix
-ResourcePack=C:\Users\Mozgolika\source\repos\CirclePointsA\Cir\CirclePointsA\bin\x64\Release\CirclePointsA_1.1.20.0_scale-150.msix
-ResourcePack=C:\Users\Mozgolika\source\repos\CirclePointsA\Cir\CirclePointsA\bin\x64\Release\CirclePointsA_1.1.20.0_scale-400.msix
+MainPackage=D:\wiiiin\Downloads\Circle--main\Circle--main\CirclePointsA\bin\x64\Release\CirclePointsA_1.1.21.0_x64.msix
+SymbolPackage=D:\wiiiin\Downloads\Circle--main\Circle--main\CirclePointsA\obj\x64\Release\Symbols\CirclePointsA_1.1.21.0_x64.appxsym
